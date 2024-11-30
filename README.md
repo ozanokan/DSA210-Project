@@ -13,10 +13,10 @@ I will be using OpenWeatherMap API (https://openweathermap.org/) and that kind o
 Finding patterns, correlations, and anomalies in the data will require summarizing and visualizing it as part of EDA. Trends like how temperature or humidity affects activity levels will be examined using scatter plots, line charts etc. Also, in some situations data will be grouped in order to compare variations.
 
 ### TOOLS
-Python - programming language for data analysis
-Pandas - For data cleaning and manipulation 
-Matplotlib - For data visualization
-Jupyter Notebooks - For documenting and executing the analysis process.
+Python - programming language for data analysis/
+Pandas - For data cleaning and manipulation/
+Matplotlib - For data visualization/
+Jupyter Notebooks - For documenting and executing the analysis process./
 etc.
 
 

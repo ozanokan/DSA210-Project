@@ -1,8 +1,5 @@
 # Personal Health and Weather Analysis Project
-**DSA210 - Data Science and Analytics**  
-**Sabancı University**  
-**Fall 2023-24**  
-**Ozan Okan**
+
 
 ## Executive Summary
 This project analyzes one year of personal health metrics in relation to weather conditions in Istanbul, Turkey. The study spans from November 2023 to November 2024, tracking daily physical activity patterns and their correlation with meteorological factors. The analysis reveals significant insights into how weather conditions influence daily activity levels and health metrics.
@@ -230,9 +227,3 @@ project/
 2. Weather conditions influence activity patterns moderately
 3. Weekday-weekend variation is consistent across seasons
 4. Temperature has less impact than initially hypothesized
-
-
-## Contact Information
-**Ozan Okan**  
-Data Science and Analytics Program  
-Sabancı University  

@@ -1,0 +1,101 @@
+=== Health and Weather Analysis Results ===
+
+Health Metrics Summary:
+              steps     calories          km
+count    367.000000   367.000000  367.000000
+mean    7746.008174   310.302452    5.382016
+std     2938.876295   199.030831    2.188346
+min     2600.000000    73.000000    1.700000
+25%     5634.500000   185.500000    3.900000
+50%     7376.000000   256.000000    5.100000
+75%     9312.000000   358.500000    6.500000
+max    23362.000000  1634.000000   17.000000
+
+Weather Summary:
+       temperature_2m_max  precipitation_sum  windspeed_10m_max
+count          367.000000         367.000000         367.000000
+mean            20.519891           1.975749          21.631608
+std              7.750347           5.074250           7.196499
+min              4.000000           0.000000           5.400000
+25%             14.600000           0.000000          16.450000
+50%             19.400000           0.000000          21.000000
+75%             27.850000           1.400000          26.500000
+max             35.100000          38.700000          52.900000
+
+Monthly Averages:
+         steps  temperature_2m_max  precipitation_sum
+month                                                
+1      7621.87               10.27               3.63
+2      7784.38               13.22               0.99
+3      6684.65               14.57               2.29
+4      7753.93               20.42               2.25
+5      7335.84               20.48               2.72
+6      7796.73               30.06               0.32
+7      7230.35               30.91               1.18
+8      7198.48               30.13               0.45
+9      8398.30               26.87               3.13
+10     9146.42               20.89               0.34
+11     8016.00               14.95               3.86
+12     8010.55               13.52               2.48
+
+Top 5 Most Active Days:
+          date  steps weather_description  temperature_2m_max
+133 2024-04-10  23362            Overcast                19.5
+132 2024-04-09  21317           Clear sky                18.8
+226 2024-07-12  18303       Dense drizzle                30.0
+334 2024-10-28  17857            Overcast                19.8
+134 2024-04-11  16961            Overcast                19.7
+
+Weekly Activity Patterns:
+             steps               
+              mean      std count
+weekday                          
+Monday     7632.58  3040.93    52
+Tuesday    8091.15  3284.94    52
+Wednesday  8126.77  3035.86    53
+Thursday   7899.02  2822.34    53
+Friday     7835.02  2679.41    53
+Saturday   7764.81  2970.25    52
+Sunday     6860.73  2677.03    52
+
+Seasonal Activity Patterns:
+          steps             km calories
+           mean      std  mean     mean
+season                                 
+Fall    8521.57  3023.72  6.23   475.03
+Spring  7252.75  3216.57  4.88   259.59
+Summer  7404.30  3054.50  5.06   246.22
+Winter  7806.07  2235.58  5.36   259.82
+
+Activity by Weather Condition:
+                        steps          km
+                         mean count  mean
+weather_description                      
+Clear sky             8239.17    29  5.66
+Dense drizzle         8214.00     9  5.59
+Heavy rain            8051.00     4  5.65
+Light drizzle         7809.41    70  5.39
+Mainly clear          7441.64    22  5.13
+Moderate drizzle      6655.76    33  4.59
+Moderate rain         7770.00    21  5.46
+Moderate snow        10471.00     1  8.20
+Overcast              7830.85   123  5.50
+Partly cloudy         7981.86    21  5.49
+Slight rain           7540.23    30  5.21
+Slight snow           9260.50     4  6.20
+
+Achievement Statistics:
+- Days with >10,000 steps: 66
+- Average steps on weekdays: 7917
+- Average steps on weekends: 7313
+
+Temperature Impact:
+- Correlation between temperature and steps: -0.030
+
+Streak Analysis:
+- Longest streak of 10000+ steps: 3 days
+
+Time-based Patterns:
+- Most active month: 10 (9146 avg steps)
+- Most active season: Fall (8522 avg steps)
+- Most active day of week: Wednesday (8127 avg steps)
